@@ -12,6 +12,7 @@ gem 'bcrypt',                   '~> 3.1.7'
 gem 'bootstrap-sass',           '~> 3.3.3'
 gem 'autoprefixer-rails'
 gem 'simple_calendar', '~> 1.1.0'
+gem 'bootstrap-datepicker-rails' 
 
 group :development, :test do
   gem 'byebug'
@@ -23,4 +24,7 @@ group :development, :test do
   gem 'pry'
   gem 'simplecov'
   gem 'faker'
+  gem 'capybara-webkit'
+  gem 'selenium-webdriver'
+  
 end
